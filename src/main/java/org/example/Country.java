@@ -23,5 +23,6 @@ public class Country {
                 body(String.class);
 
         System.out.println("Ответ:" + response);
+        System.out.println("Конец");
     }
 }
