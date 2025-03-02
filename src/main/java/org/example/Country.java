@@ -15,6 +15,7 @@ public class Country {
 
         String url = "https://restcountries.com/v3.1/alpha/"+input;
         // Получаем данные по API
+        // и выйти
         RestClient restClient = RestClient.create();
         String response = restClient.
                 get().
